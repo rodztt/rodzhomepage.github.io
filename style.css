@@ -1,21 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-li,a,button,h2{
+li,a,button,h2,p{
     font-family: "Montserrat",sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: whitesmoke;
     text-decoration: none;
+    color: whitesmoke;
 }
 
-#perfil{
-    border-radius: 5%;
-    width: 150px;
-    height: 150px;
+.container{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    width: 20%;
+    margin-top: 20px;
+}
+.text h1,p,li{
+    color: #24252A;
+    margin: 10px;
+}
+.aboutme-text{
+    width: 20%;
+    margin-top: 120px;
+}
+
+.capitu{
+    width: 20%;
+    margin-top: 120px;
+}
+
+#contact .capitu{
+    visibility: hidden ;
+}
+
+#projects .capitu{
+    visibility: hidden ;
+}
+
+
+#aboutme h2{
+    color: #24252A;
 }
 
 header{
@@ -25,6 +55,9 @@ header{
     padding: 30px 10%;
     background-color: #24252A;
     z-index: 1;
+    width: 100%;
+    position: fixed;
+    height: 100px;
 }
 
 .logo{
@@ -45,6 +78,7 @@ header{
 .nav_ul li{
     display: inline-block;
     padding: 0px 20px;
+    
 }
 .nav_ul li a{
     transition: all 0.3s ease 0s;

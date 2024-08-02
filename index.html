@@ -7,6 +7,7 @@
         <title>Welcome to Rodzz Portfolio</title>
     </head>
     <body>
+        <script src="./script.js"></script>
         <header>
             <div class="logo">
                 <img src="./images/Perfikl.jpg">
@@ -22,7 +23,40 @@
             <a class="contact" href="#"><button>Contact</button></a>
         </header>
         <main>
-            
+            <section id="aboutme">
+                <div class="aboutme-container container">
+                    <div class="aboutme-text text">
+                        <h1>About Me</h1>
+                        <p>My name is Rodrigo, I'm from Sao Paulo - Brazil, and I simply love to learn something new everyday.
+                             I have an egineering background but Ive been learning more about coding recently. </p>
+                        <p>As a hobby, I practice jiu-jitsu , tennis, beach-tennis. I also love to read, currently reading The Lord Of the Ring for the 3rd time.</p>
+                        <p>Appreciation image of my lovely dog Capitu, cause why not. (Click on it for more cute pics)</p>
+                    </div>
+                    <img class="capitu" src="./images/capitu.jpeg" onclick="changePic(this)" data-index="0">
+                </div>
+            </section>
+            <section id="projects">
+                <div class="projects-container container">
+                    <div class="projects-text text">
+                        <h1>Projects</h1>
+                        <p> Here are some projects I have developed: </p>
+                        <ul>
+                            <li>Football player Fake news</li>
+                        </ul>
+                    </div>
+                    <img class="capitu" src="./images/capitu.jpeg">
+                </div>
+            </section>
+            <section id="contact">
+                <div class="contact-container container">
+                    <div class="contact-text text">
+                        <h1>Contact</h1>
+                        <p>rodrigottricarico@gmail.com </p>
+                        <p><a href="https://www.linkedin.com/in/rodrigo-tanure-tricarico-msc-b6713ba0/">linkedIn</a></p>
+                    </div>
+                    <img class="capitu" src="./images/capitu.jpeg" >
+                </div>
+            </section>
         </main>
     </body>
 </html>
